@@ -56,7 +56,7 @@
     <h2>RGB color space or RGB color system, constructs all the colors from the combination of the Red, Green and Blue colors.</h2>
         <h3> The red, green and blue use 8 bits each, which have integer values from 0 to 255. This makes 256*256*256=16777216 possible colors.
         Each pixel in the LED monitor displays colors this way, by combination of red, green and blue LEDs (light emitting diodes).</h3>
-    <footer><p><h3>All code available on my <a href="https://github.com/gabrielpulga" target="_blank">GitHub</a> page.</h3></p>
+    <footer><p><h3>Code from this project available on my <a href="https://github.com/gabrielpulga" target="_blank">GitHub</a> page.</h3></p>
 
     </footer>
 
@@ -73,6 +73,7 @@
 
                     var display = document.getElementById("display");
                     display.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+                    display.innerHTML = "RGB (" + red + ", " + green + ", " + blue + ")";
                 }
             );
         }
