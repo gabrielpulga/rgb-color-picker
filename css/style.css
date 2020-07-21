@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Helvetica Neue", Helvetica;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.picker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 720px;
+    height: 180px;
+}
+
+#display {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    background: #425779;
+    margin-top: 30px;
+    border: 1px solid #000;
+
+    font-family: "Helvetica Neue", Helvetica;
+    font-size: 1.8rem;
+    color: azure
+}
+
+input {
+    display: block;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    width: 360px;
+    height: 180px;
+}
